@@ -1,8 +1,8 @@
 # Site settings
 title: System-on-Chip Design & Verification
-author: Michele Lynch
-  name: Edmond Wilkinson
-  email: G00414989@atu.ie
+author:
+  name: Michelle Lynch
+  email: your-email@domain.com
 description: "A blog."
 
 # Build settings
