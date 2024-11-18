@@ -7,8 +7,11 @@ categories: demo
 
 This is my project on FPGA VGA. I will show you the colourful images that I created and what I started from.
 
-![A GIF showing an example](https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images%20and%20videos/IMG_1861.gif)
+![A GIF showing The Different Colours](https://raw.githubusercontent.com/Edmentos/SOC_Project/main/IMG_1861.gif)
 ### **Project Set-Up**
+The project setup was easy I had to plug in my board and get run my synthesis run my implementation generate a bitstream and program the board. It was that simple for me.
+I know other people had problems choosing which board but because Michele had it on the Moodle I picked the right one first time. Above is a gif of what the first design looked like how it works. I made sure that I had all my sources in the right spot and I got that design pattern first time.
+
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images and videos/Project Summary.png">
