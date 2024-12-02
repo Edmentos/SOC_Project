@@ -15,8 +15,11 @@ I know other people had problems choosing which board but because Michele had it
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images and videos/Project Summary.png">
 
 ### **Template Code**
-For the FPGA/VGA design above it uses a state machine which changes the state after every 0.5 seconds using the count and count to which counts every 67,108,864 clock cycles. Black,Red,Yellow,Green,Cyan,Blue,Magenta and white aare all states that gets the colour to show up using (colour <= 12'b000000001111;) this line of code and then it shows up on the screen.
+For the FPGA/VGA design above it uses a state machine which changes the state after every 0.5 seconds using the count and count to which counts every 67,108,864 clock cycles. Black,Red,Yellow,Green,Cyan,Blue,Magenta and white are all states that gets the colour to show up using (colour <= 12'b000000001111;) this line of code and then it shows up on the screen.
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/State_Machine.png">
+
+
+<img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images and videos/TestBench.png">
 
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
