@@ -12,16 +12,16 @@ This is my project on FPGA VGA. I will show you the colourful images that I crea
 The project setup was easy I had to plug in my board and get run my synthesis run my implementation generate a bitstream and program the board. It was that simple for me.
 I know other people had problems choosing which board but because Michele had it on the Moodle I picked the right one first time. Above is a gif of what the first design looked like how it works. I made sure that I had all my sources in the right spot and I got that design pattern first time.
 
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images and videos/Project Summary.png">
+
 ### **Template Code**
+
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 When I tried to run the simulation for the colour stripes portion of the project I ran into a problem with my simulation. I never set my TestBench as top in my simulation sources. I set it as my top and then ran into another problem I hadnt spelled one of my sources right 
 
-I tried to make a spiral pattern but i couldnt complete that on time and it was taking up too much of my time 
+I tried to make a spiral pattern but I couldnt complete that on time and it was taking up too much of my time 
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 ### **Demonstration**
