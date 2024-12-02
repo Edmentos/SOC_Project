@@ -15,8 +15,9 @@ I know other people had problems choosing which board but because Michele had it
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images and videos/Project Summary.png">
 
 ### **Template Code**
-
+For the FPGA/VGA design above it uses a state machine which changes the state after every 0.5 seconds using the count and count to which counts every 67,108,864 clock cycles. Black,Red,Yellow,Green,Cyan,Blue,Magenta and white aare all states that gets the colour to show up using (colour <= 12'b000000001111;) this line of code and then it shows up on the screen.
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+<img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/State_Machine.png">
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 When I tried to run the simulation for the colour stripes portion of the project I ran into a problem with my simulation. I never set my TestBench as top in my simulation sources. I set it as my top and then ran into another problem I hadnt spelled one of my sources right 
