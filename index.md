@@ -29,13 +29,17 @@ I tried to make a spiral pattern but I couldnt complete that on time and it was 
 
 ### **Synthesis**
 
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
+With the Vivado Design Suite the proccess for synthesis and implementation Is stimple. As long as your code works and everything is running properly synthesis is just one click away. Once my synthesis had ran it the image below showed me alot of data. In the methodology section it showed me that I had 2 critical warnings and 13 warnings for my code. which sounds like alot but it was the same without any changes to the code my guess is that the updated version of vivado cant run the old code.
+The implementation is just as easy with just one click I was able to generate my bitstream. The annoying part is that everytime i tried to run my code i had to generate my bitstream and that might take a minute. each change for my swirl design got longer and longer to generate a bitstream because the code got longer and longer. The whole process for everything was easy enough due to the Vivado Design Suite. 
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/Images and videos/Design Runs.png">
 
 ### **Demonstration**
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+Finally, I programmed the FPGA board with the design. Below is an image of the Irish flag displayed on the VGA screen. This is done by splitting the screen into 3 and changing the colour of the section to green white and orange. This is done by getting the hex code of the colour and inputting it into the section. Unfortunatly I tried to change the code to get multiple different flags on the screen and I somehow lost my original code and was unable to get it back to a working state.
+This project helped me understand how to manipulate pixel coordinates and colors to create custom VGA outputs.
+<img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/IMG_1939.jpg">
 
 ## **My VGA Design Edit**
+My own design idea was orignially a spiral pattern, it was supoosed to be like those toys that you would put a pencil into and spiral
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
