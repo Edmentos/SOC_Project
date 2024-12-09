@@ -39,9 +39,10 @@ This project helped me understand how to manipulate pixel coordinates and colors
 <img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/IMG_1939.jpg">
 
 ## **My VGA Design Edit**
-My own design idea was orignially a spiral pattern, it was supoosed to be like those toys that you would put a pencil into and spiral
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+My own design idea was orignially a spiral pattern, it was supoosed to be like those toys that you would put a pencil into and spiral around the page but after seeing how complex that would be I instead decided to focus on simpler designs. I got an Irish flag to show up and then went to try and have it so that the flag would change into another flag after a short period of time this turned out to be harder than I expected and I had to get some help from my fellow classmates. Alex was the person to point out that I was using the wrong file to try get something changing as i was using a stativ file that never changed. I changed to the colourcycle and tried to get that running but unfortunatly I ran out of time.
 ### **Code Adaptation**
+I changed the original code for the colourstripes.v file to display an Irish flag. This posed a bit of a challenge as i had to learn what everything meant in that file. I found out how to change the size of the portion of the screen and that the screen was 680units long. This then made it easy to change the screen into three equal parts after a bit of messing around to get it equal.
+I then changed the colour associated with that section by getting the hex code for the colours 
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
@@ -50,20 +51,3 @@ Describe the synthesis & implementation outputs for your design, are there any d
 ### **Demonstration**
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
-
-Font can be emphasised as *Italic* or **Bold**.
-
-Code can be highlighted by using `backticks`.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
