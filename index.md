@@ -42,12 +42,15 @@ This project helped me understand how to manipulate pixel coordinates and colors
 My own design idea was orignially a spiral pattern, it was supoosed to be like those toys that you would put a pencil into and spiral around the page but after seeing how complex that would be I instead decided to focus on simpler designs. I got an Irish flag to show up and then went to try and have it so that the flag would change into another flag after a short period of time this turned out to be harder than I expected and I had to get some help from my fellow classmates. Alex was the person to point out that I was using the wrong file to try get something changing as i was using a stativ file that never changed. I changed to the colourcycle and tried to get that running but unfortunatly I ran out of time.
 ### **Code Adaptation**
 I changed the original code for the colourstripes.v file to display an Irish flag. This posed a bit of a challenge as i had to learn what everything meant in that file. I found out how to change the size of the portion of the screen and that the screen was 680units long. This then made it easy to change the screen into three equal parts after a bit of messing around to get it equal.
-I then changed the colour associated with that section by getting the hex code for the colours 
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+I then changed the colour associated with that section by getting the hex code for the colours and inputting it into the section.
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+After my first simulation it shpwed that multiple things were not running right but after tweaking a bit looking at the warnings and errors I was able to see the problem. I had forgotten to put multiple semicolons at the end of my lines making the code fail with multiple errors.
+After that the simulation ran perfectly and I got everything to work well. This was a big relief after not being able to run my project for the longest time due to the spiral pattern that I was making was just too complex for me starting out.
 ### **Synthesis**
+Synthesis was the exact same as all I needed to do was click the button, generate my bitstream and upload it to the board. The Basys3 board has a vga output on it and it made it very easy to see my image on the monitor.
+Synthesis shows a bunch of different values when ran and the one I found intriguing was wps(worst possible slack). This was 6.006 microseconds and shows how the warnings slowed down my code from running.
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+I got the Irish flag to work after not being able to run my spiral pattern for the longest time. I am happy with this experience and what I have done as it taught me to take it easy at the start and work my way up. I shouldnt try and go for the hardest thing to make at the start as it doesnt always work first time.
+<img src="https://raw.githubusercontent.com/Edmentos/SOC_Project/main/IMG_1939.jpg">
 
